@@ -40,7 +40,8 @@
     <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo" href="<?= $this->url->get('') ?>">
-            <img src="<?= $this->url->get('images/logo-dark.png') ?>" alt="" class="" height="21">
+            <img src="<?= $this->url->get('img/uinsuska2.png') ?>" alt="" class="" height="50">
+            UNIVERSITAS ISLAM NEGERI SULTAN SYARIF KASIM
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +60,7 @@
                     <a href="<?= $this->url->get('berita') ?>"  class="nav-link">Berita</a>
                 </li>
                 <li class="nav-item">
-                    <a href=""  class="nav-link">KKN ONLINE</a>
+                    <a href="<?= $this->url->get('kknonline') ?>"  class="nav-link">KKN ONLINE</a>
                 </li>
                 <li class="nav-item">
                     <a href="<?= $this->url->get('module/admin/login') ?>" target="_blank" class="nav-link" id="login" onclick="login()">Login</a>
@@ -77,35 +78,37 @@
     <div class="container">
         <div class="row mb-4">
             <div class="col-lg-4 col-sm-6">
-                <div class="mb-4">
-                    <a href="layout-one-1.html"><img src="images/logo-light.png" alt="" class="logo-light" height="22"/></a>
-                    <a href="layout-one-1.html"><img src="images/logo-dark.png" alt="" class="logo-dark"
-                                                     height="22"/></a>
-                </div>
-                <p class="footer-desc f-15">Rimba Panjang, Tambang, Kampar Regency, Riau 28293</p>
-                <ul class="footer-icons list-inline f-20 mb-0 mt-4">
-                    <li class="list-inline-item mr-3"><a href="#" class=""><i class="mdi mdi-facebook"></i></a></li>
-                    <li class="list-inline-item mr-3"><a href="#" class=""><i class="mdi mdi-twitter"></i></a></li>
-                    <li class="list-inline-item mr-3"><a href="#" class=""><i class="mdi mdi-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class=""><i class="mdi mdi-linkedin"></i></a></li>
+                <h5 class="footer-list-title f-18 font-weight-normal mb-3">ALAMAT KAMI</h5>
+                <p class="footer-desc f-15">Gedung Islamic Center</p>
+                <p class="footer-desc f-15">UIN Sultan Syarif Kasim Riau</p>
+                <p class="footer-desc f-15">Jl. H.R. Soebrantas K.M. 15.5</p>
+                <p class="footer-desc f-15">Rimba Panjang, Tambang, Kampar Regency, Riau 28292</p>
+                <h5 class="footer-list-title font-weight-normal">LINK</h5>
+                <ul class="list-unstyled company-sub-menu">
+                    <li><a href="">Website</a></li>
+                    <li><a href="">iRaise</a></li>
+                    <!--                            <li><a href="">Contact Us</a></li>-->
                 </ul>
+<!--                <ul class="footer-icons list-inline f-20 mb-0 mt-4">-->
+<!--                    <li class="list-inline-item mr-3"><a href="#" class=""><a href="layout-one-1.html"><img src="img/uinsuska2.png" alt="" class="logo-light" height="50"/></a></li>-->
+<!--                    <li class="list-inline-item mr-3"><a href="#" class=""><i class="mdi mdi-twitter"></i></a></li>-->
+<!--                    <li class="list-inline-item mr-3"><a href="#" class=""><i class="mdi mdi-instagram"></i></a></li>-->
+<!--                    <li class="list-inline-item"><a href="#" class=""><i class="mdi mdi-linkedin"></i></a></li>-->
+<!--                </ul>-->
             </div>
             <div class="col-lg-7 offset-lg-1">
                 <div class="row mt-lg-0">
                     <div class="col-md-6 mt-4 mt-lg-0">
-                        <h5 class="footer-list-title f-18 font-weight-normal mb-3">Company</h5>
+                        <h5 class="footer-list-title f-18 font-weight-normal mb-3">PANDUAN PENDAFTARAN KKN</h5>
                         <ul class="list-unstyled company-sub-menu">
-                            <li><a href="">About</a></li>
-                            <li><a href="">Service</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Unduh Dokumen Panduan</a></li>
+                            <li><a href="">Unduh Dokumen Panduan PDL</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 mt-4 mt-lg-0">
-                        <h5 class="footer-list-title f-18 font-weight-normal mb-3">Further Information</h5>
-                        <ul class="list-unstyled company-sub-menu">
-                            <li><a href="">Term & Condition</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                        </ul>
+                        <h5 class="footer-list-title f-18 font-weight-normal mb-3">HUBUNGI KAMI</h5>
+                        <p class="footer-desc f-15">Email: lppm@uin-suska.ac.id</p>
+                        <p class="footer-desc f-15">Fan Page: <a href="">LPPM UIN Suska Riau</a></p>
                     </div>
                 </div>
             </div>
@@ -130,8 +133,7 @@ echo $this->tag->javascriptInclude('js/owl.carousel.min.js');
 echo $this->tag->javascriptInclude('js/app.js');
 ?>
 <script>
-    const url = "<?= $this->url->get() ?>module/admin/login"
-
+    const url = "<?= $this->url->get() ?>"
 </script>
 
 </body>

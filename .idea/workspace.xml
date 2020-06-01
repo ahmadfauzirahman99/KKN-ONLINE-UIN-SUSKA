@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f241984d-166b-46ef-b690-7493be94cb24" name="Default Changelist" comment="" />
+    <list default="true" id="f241984d-166b-46ef-b690-7493be94cb24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/frontend/kknonline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/lppm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/uinsuska2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/FrontendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/FrontendController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/frontend/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/frontend/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -27,13 +58,17 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1cXV3ia6CxC1wfioLrqU3sKbIdg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -42,9 +77,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kkn\public\img" />
       <recent name="C:\xampp\htdocs\lppm-suska\public\img" />
       <recent name="C:\xampp\htdocs\lppm-suska\public" />
     </key>
@@ -64,11 +101,26 @@
       <workItem from="1590821596531" duration="186000" />
       <workItem from="1590827405257" duration="17690000" />
       <workItem from="1590986860562" duration="2309000" />
+      <workItem from="1590997057932" duration="3940000" />
+      <workItem from="1591007730904" duration="1504000" />
+      <workItem from="1591017372721" duration="5051000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1590827457162">
@@ -83,10 +135,15 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="381" y="181" key="NewPhpClassDialog/0.0.1280.689@0.0.1280.689" timestamp="1590869205200" />
-    <state x="443" y="277" key="NewPhpFileDialog" timestamp="1590869208430">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="532" y="347" key="NewPhpFileDialog" timestamp="1590997572533">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="443" y="277" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1590869208430" />
+    <state x="532" y="347" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1590997572533" />
+    <state x="461" y="185" key="SettingsEditor" timestamp="1591017968259">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="185" key="SettingsEditor/-1920.0.1536.864/0.0.1920.1080/1920.151.1366.768@0.0.1920.1080" timestamp="1591017968259" />
     <state x="312" y="108" width="657" height="474" key="find.popup" timestamp="1590690935412">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
