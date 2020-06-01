@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f241984d-166b-46ef-b690-7493be94cb24" name="Default Changelist" comment="footer">
-      <change afterPath="$PROJECT_DIR$/public/img/lppm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/uinsuska2.png" afterDir="false" />
+    <list default="true" id="f241984d-166b-46ef-b690-7493be94cb24" name="Default Changelist" comment="header">
+      <change afterPath="$PROJECT_DIR$/public/img/post-3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/front.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/frontend/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/frontend/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,7 @@
       <workItem from="1590986860562" duration="2309000" />
       <workItem from="1590997057932" duration="3940000" />
       <workItem from="1591007730904" duration="1504000" />
-      <workItem from="1591017372721" duration="11509000" />
+      <workItem from="1591017372721" duration="15824000" />
     </task>
     <task id="LOCAL-00001" summary="footer">
       <created>1591022675995</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591022675995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="header">
+      <created>1591029076614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591029076614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="header" />
+    <option name="LAST_COMMIT_MESSAGE" value="header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1590827457162">

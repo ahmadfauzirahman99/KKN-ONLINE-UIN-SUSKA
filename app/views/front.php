@@ -17,6 +17,20 @@
     echo $this->tag->stylesheetLink("css/style.min.css");
     ?>
 
+    <style>
+        .navbar-light .navbar-nav li a {
+            color: #ffffff !important;
+        }
+
+        .active{
+            color: #5eff66 !important;
+        }
+
+        .navbar-light .navbar-nav li.active a, .navbar-light .navbar-nav li a:hover, .navbar-light .navbar-nav li a:active {
+            color: #ffbb13 !important;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -36,7 +50,7 @@
 </div>
 
 <!--Navbar Start-->
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark navbar-light nav-dark">
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark navbar-light">
     <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo" href="<?= $this->url->get('') ?>">
@@ -49,20 +63,19 @@
         </button>
         <div class="collapse navbar-collapse" >
             <ul class="navbar-nav ml-auto navbar-center" >
-                <li class="nav-item active">
-                    <a href="#home" class="nav-link">Beranda</a>
+                <li class="nav-item active text-white">
+                    <a href="#home" class="nav-link text-white">Beranda</a>
                 </li>
-
-                <li class="nav-item">
+                <li class="nav-item text-white">
+                    <a href="#kknonline"  class="nav-link">KKN ONLINE</a>
+                </li>
+                <li class="nav-item text-white">
+                    <a href="#berita"  class="nav-link">Berita</a>
+                </li>
+                <li class="nav-item text-white">
                     <a href="#about" class="nav-link">Tentang LPPM</a>
                 </li>
-                <li class="nav-item">
-                    <a href="<?= $this->url->get('berita') ?>"  class="nav-link">Berita</a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?= $this->url->get('kknonline') ?>"  class="nav-link">KKN ONLINE</a>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item text-white">
                     <a href="<?= $this->url->get('module/admin/login') ?>" target="_blank" class="nav-link" id="login" onclick="login()">Login</a>
 
                 </li>

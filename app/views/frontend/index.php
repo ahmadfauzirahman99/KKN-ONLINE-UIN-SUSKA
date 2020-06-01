@@ -55,7 +55,6 @@
 
                         </div> <!-- end card-body -->
                     </div>
-
                 </div>
             </div>
         </div>
@@ -63,7 +62,143 @@
 </section>
 <!-- Hero End -->
 
-<!-- About us Start -->
+<!-- Kkn Online Start -->
+<section class="section bg-light" id="kknonline">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="text-center mb-5">
+                    <h4 class="text-uppercase mb-0">KKN ONLINE</h4>
+                    <div class="my-3">
+                        <img src="<?= $this->url->get('images/title-border.png')  ?>" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                    <p class="text-muted f-14">Cek KKN Kamu Disini</p>
+                    <div class="card">
+
+                        <div class="card-body p-4">
+
+                            <form action="" method="post">
+
+                                <div class="form-group mb-3">
+                                    <label for="emailaddress">Kode Akun / Nik / Nim / Email</label>
+                                    <input class="form-control" type="text" id="emailaddress" name="masuk[]" required=""
+                                           placeholder="Masukan Kode Akun / Nik / Nim">
+                                </div>
+
+                                <div class="form-group mb-0 text-center">
+                                    <button class="btn btn-primary btn-block" type="submit">CEK</button>
+                                </div>
+
+                            </form>
+
+                        </div> <!-- end card-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Kkn Online End -->
+
+<!-- Berita Start -->
+<section class="section bg-light" id="berita">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="text-center">
+                    <h4 class="text-uppercase mb-0">Berita</h4>
+                    <div class="my-3">
+                        <img src="<?= $this->url->get('images/title-border.png')  ?>" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                    <p class="text-muted f-14"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project One</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Two</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Three</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Four</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Five</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Six</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="text-center">
+                    <div class="my-3">
+                        <button class="btn btn-primary btn-block" type="submit">Baca Berita Lebih Banyak</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Berita us End -->
+
+<!-- Tentang Start -->
 <section class="section bg-light" id="about">
     <div class="container">
         <div class="row justify-content-center">
@@ -94,9 +229,9 @@
         </div>
     </div>
 </section>
-<!-- About us End -->
+<!-- Tentang End -->
 
-<Section class="section counter-bg" style="display: none">
+<Section class="section counter-bg" style="display:none ">
     <div class="counter-bg-overlay"></div>
     <div class="container">
         <div class="row align-items-center" id="counter">
@@ -104,7 +239,7 @@
     </div>
 </Section>
 <!-- Clients Start -->
-<section class="section bg-light" id="clients" style="display:none;">
+<section class="section bg-light" id="clients" style="display: none">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8">
