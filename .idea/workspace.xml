@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f241984d-166b-46ef-b690-7493be94cb24" name="Default Changelist" comment="header">
-      <change afterPath="$PROJECT_DIR$/public/img/post-3.jpg" afterDir="false" />
+    <list default="true" id="f241984d-166b-46ef-b690-7493be94cb24" name="Default Changelist" comment="Tinggal tampilan hasil cek kkn online">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/front.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/frontend/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/frontend/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +96,8 @@
       <workItem from="1590986860562" duration="2309000" />
       <workItem from="1590997057932" duration="3940000" />
       <workItem from="1591007730904" duration="1504000" />
-      <workItem from="1591017372721" duration="15824000" />
+      <workItem from="1591017372721" duration="16510000" />
+      <workItem from="1591056023774" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="footer">
       <created>1591022675995</created>
@@ -114,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591029076614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tinggal tampilan hasil cek kkn online">
+      <created>1591033518117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591033518117</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,9 +141,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer" />
     <MESSAGE value="header" />
-    <option name="LAST_COMMIT_MESSAGE" value="header" />
+    <MESSAGE value="Tinggal tampilan hasil cek kkn online" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tinggal tampilan hasil cek kkn online" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="847" y="376" key="#Notifications" timestamp="1591033575395">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="847" y="376" key="#Notifications/-1920.0.1536.864/0.0.1920.1080/1920.151.1366.768@0.0.1920.1080" timestamp="1591033575395" />
     <state x="418" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1590827457162">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -159,6 +170,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/-1920.0.1536.864/0.0.1920.1080/1920.151.1366.768@0.0.1920.1080" timestamp="1591017968259" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1591033739600">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/-1920.0.1536.864/0.0.1920.1080/1920.151.1366.768@0.0.1920.1080" timestamp="1591033739600" />
     <state x="312" y="108" width="657" height="474" key="find.popup" timestamp="1590690935412">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
