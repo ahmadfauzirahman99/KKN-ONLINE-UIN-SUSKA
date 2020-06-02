@@ -20,5 +20,9 @@ class FrontendController extends ControllerBase
 
     }
 
+    public function kknonlineAction(){
+
+    }
+
 }
 

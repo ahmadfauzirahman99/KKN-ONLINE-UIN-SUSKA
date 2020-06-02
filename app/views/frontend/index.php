@@ -1,22 +1,60 @@
 
 <!-- Hero Start -->
-<section class="hero-3-bg position-relative d-flex align-items-center" id="home">
-    <div class="container">
+<section class="hero-3-bg position-relative d-flex align-items-center" id="home"
+         style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(<?= $this->url->get('img/lppm.jpg')  ?>); background-repeat: no-repeat; max-width: 100%; height: auto; background-attachment: fixed;
+                 background-size: cover;">
+    <div class="container" >
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="hero-title">
-                    <span class="badge badge-primary text-uppercase mb-4">Something Amazing</span>
-                    <h1 class="title font-weight-normal text-muted mb-2">Hello!</h1>
-                    <h1 class="title text-muted font-weight-normal mb-4">Selamat Datang Di <span
-                            class="title">LPPM</span>
-                    </h1>
-                    <p class="text-muted mb-2 pb-2">Portal Penelitian dan Pengabdian Kepada Masyarakat</p>
+<!--                    <span class="badge badge-primary text-uppercase mb-4">Something Amazing</span>-->
+                    <h1 class="title font-weight-normal text-muted mb-2 text-white">LPPM UIN SUSKA RIAU 2020</h1>
+<!--                    <h1 class="title text-muted font-weight-normal mb-4">Selamat Datang Di <span-->
+<!--                            class="title">LPPM</span>-->
+<!--                    </h1>-->
+                    <p class="text-muted mb-2 pb-2 text-white">Portal Penelitian dan Pengabdian Kepada Masyarakat</p>
                     <a href="" class="btn btn-primary btn-sm">Read More <span class="ml-2 right-icon">&#8594;</span></a>
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <div class="mt-5 mt-lg-0">
-                    <img src="<?= $this->url->get('images/hero-7-img.png') ?>" alt="" class="img-fluid mx-auto d-block">
+                    <div class="card">
+
+                        <div class="card-body p-4">
+
+                            <div class="text-center mb-4">
+                                <h4 class="text-uppercase mt-0"><b>Hi!</b> Silahkan Masuk</h4>
+                            </div>
+
+                            <form action="<?= $this->url->get('proses/login') ?>" method="post">
+
+                                <div class="form-group mb-3">
+                                    <label for="emailaddress">Kode Akun / Nik / Nim / Email</label>
+                                    <input class="form-control" type="text" id="emailaddress" name="masuk[]" required=""
+                                           placeholder="Masukan Kode Akun / Nik / Nim">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="password">Password</label>
+                                    <input class="form-control" type="password" required="" name="masuk[]" id="password"
+                                           placeholder="Masukan password">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="checkbox-signin" checked>
+                                        <label class="custom-control-label" for="checkbox-signin">Remember me</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-0 text-center">
+                                    <button class="btn btn-primary btn-block" type="submit"> Log In</button>
+                                </div>
+
+                            </form>
+
+                        </div> <!-- end card-body -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -24,7 +62,122 @@
 </section>
 <!-- Hero End -->
 
-<!-- About us Start -->
+<!-- Kkn Online Start -->
+<section class="section bg-light" id="kknonline">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="text-center mb-5">
+                    <h4 class="text-uppercase mb-0">KKN ONLINE</h4>
+                    <div class="my-3">
+                        <img src="<?= $this->url->get('images/title-border.png')  ?>" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                    <p class="text-muted f-14">Cek KKN Kamu Disini</p>
+                    <div class="card">
+
+                        <div class="card-body p-4">
+
+                            <form action="" method="post">
+
+                                <div class="form-group mb-3">
+                                    <label for="emailaddress">Kode Akun / Nik / Nim / Email</label>
+                                    <input class="form-control" type="text" id="emailaddress" name="masuk[]" required=""
+                                           placeholder="Masukan Kode Akun / Nik / Nim">
+                                </div>
+
+                                <div class="form-group mb-0 text-center">
+                                    <button class="btn btn-primary btn-block" type="submit">CEK</button>
+                                </div>
+
+                            </form>
+
+                        </div> <!-- end card-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Kkn Online End -->
+
+<!-- Berita Start -->
+<section class="section bg-light" id="berita">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="text-center">
+                    <h4 class="text-uppercase mb-0">Berita</h4>
+                    <div class="my-3">
+                        <img src="<?= $this->url->get('images/title-border.png')  ?>" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                    <p class="text-muted f-14"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project One</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Two</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Two</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="<?= $this->url->get('img/post-3.jpg')  ?>" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Two</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="text-center">
+                    <div class="my-3">
+                        <button class="btn btn-primary btn-block" type="submit">Baca Berita Lebih Banyak</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Berita us End -->
+
+<!-- Tentang Start -->
 <section class="section bg-light" id="about">
     <div class="container">
         <div class="row justify-content-center">
@@ -55,9 +208,9 @@
         </div>
     </div>
 </section>
-<!-- About us End -->
+<!-- Tentang End -->
 
-<Section class="section counter-bg" style="display: none">
+<Section class="section counter-bg" style="display:none ">
     <div class="counter-bg-overlay"></div>
     <div class="container">
         <div class="row align-items-center" id="counter">
@@ -65,7 +218,7 @@
     </div>
 </Section>
 <!-- Clients Start -->
-<section class="section bg-light" id="clients" style="display:none;">
+<section class="section bg-light" id="clients" style="display: none">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8">

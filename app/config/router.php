@@ -37,6 +37,7 @@ $router->add('/api-mahasiswa/admin/list-kelompok', ['controller' => 'api-mahasis
 
 //frontend
 $router->add('/berita', ['controller' => 'frontend', 'action' => 'berita']);
+$router->add('/kknonline', ['controller' => 'frontend', 'action' => 'kknonline']);
 
 $router->handle();
 
