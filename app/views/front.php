@@ -54,7 +54,7 @@
     <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo" href="<?= $this->url->get('') ?>">
-            <img src="<?= $this->url->get('img/uinsuska2.png') ?>" alt="" class="" height="50">
+            <img src="<?= $this->url->get('img/uinsuska2.png') ?>" alt="" class=""  height="50">
             UNIVERSITAS ISLAM NEGERI SULTAN SYARIF KASIM
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -67,7 +67,7 @@
                     <a href="#home" class="nav-link text-white">Beranda</a>
                 </li>
                 <li class="nav-item text-white">
-                    <a href="#kknonline"  class="nav-link">KKN ONLINE</a>
+                    <a href="#kknonline"  class="nav-link">Kkn Online</a>
                 </li>
                 <li class="nav-item text-white">
                     <a href="#berita"  class="nav-link">Berita</a>

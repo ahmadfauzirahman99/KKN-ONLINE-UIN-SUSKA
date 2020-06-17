@@ -80,7 +80,7 @@
                             <form action="" method="post">
 
                                 <div class="form-group mb-3">
-                                    <label for="emailaddress">Kode Akun / Nik / Nim / Email</label>
+                                    <label for="emailaddress">Nim</label>
                                     <input class="form-control" type="text" id="emailaddress" name="masuk[]" required=""
                                            placeholder="Masukan Kode Akun / Nik / Nim">
                                 </div>

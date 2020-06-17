@@ -2,19 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f241984d-166b-46ef-b690-7493be94cb24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/DosenController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Dosen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/daftar/daftar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/dosen/manage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mahasiswa/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mahasiswa/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mahasiswa/kegiatan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dosen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/keperluan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/mahasiswa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ApiMahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ApiMahasiswaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MahasiswaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MahasiswaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/auth/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/auth/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/frontend/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/frontend/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/index/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/mahasiswa/manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mahasiswa/manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/pages/dashboard.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/pages/dashboard.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/pages/form-advanced.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/pages/form-advanced.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -35,17 +68,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1cXV3ia6CxC1wfioLrqU3sKbIdg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +91,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lppm-suska\public\js" />
       <recent name="C:\xampp\htdocs\lppm-suska\public\img" />
       <recent name="C:\xampp\htdocs\lppm-suska\public" />
     </key>
@@ -74,6 +111,15 @@
       <workItem from="1590821596531" duration="186000" />
       <workItem from="1590827405257" duration="17690000" />
       <workItem from="1590986860562" duration="3702000" />
+      <workItem from="1591065857476" duration="2079000" />
+      <workItem from="1591675975851" duration="2040000" />
+      <workItem from="1592029828359" duration="139000" />
+      <workItem from="1592194909338" duration="719000" />
+      <workItem from="1592310426448" duration="439000" />
+      <workItem from="1592311110947" duration="1578000" />
+      <workItem from="1592319335004" duration="5506000" />
+      <workItem from="1592362733946" duration="4429000" />
+      <workItem from="1592367858100" duration="5617000" />
     </task>
     <task id="LOCAL-00001" summary="LPPM UIN SUSKA">
       <created>1590995387924</created>
@@ -82,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590995387924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LPPM UIN SUSKA">
+      <created>1591066059028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591066059028</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,42 +143,51 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="LPPM UIN SUSKA" />
     <option name="LAST_COMMIT_MESSAGE" value="LPPM UIN SUSKA" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1590827457162">
+    <state x="418" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1592323389939">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="418" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1590827457162" />
-    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1591065985763">
+    <state x="418" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1592323389939" />
+    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1591066058395">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1591065985763" />
-    <state x="421" y="103" key="FileChooserDialogImpl" timestamp="1590868757444">
+    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1591066058395" />
+    <state x="421" y="103" key="FileChooserDialogImpl" timestamp="1592363355492">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1590868757444" />
+    <state x="421" y="103" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1592363355492" />
+    <state x="342" y="63" key="MultipleFileMergeDialog" timestamp="1591066075276">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="342" y="63" key="MultipleFileMergeDialog/0.0.1280.689@0.0.1280.689" timestamp="1591066075276" />
     <state x="381" y="181" key="NewPhpClassDialog" timestamp="1590869205200">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="381" y="181" key="NewPhpClassDialog/0.0.1280.689@0.0.1280.689" timestamp="1590869205200" />
-    <state x="443" y="277" key="NewPhpFileDialog" timestamp="1590869208430">
+    <state x="443" y="277" key="NewPhpFileDialog" timestamp="1592370595253">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="443" y="277" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1590869208430" />
+    <state x="443" y="277" key="NewPhpFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1592370595253" />
     <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1591065992987">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1591065992987" />
+    <state x="298" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1592311111573">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="298" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1592311111573" />
     <state x="312" y="108" width="657" height="474" key="find.popup" timestamp="1590690935412">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="312" y="108" width="657" height="474" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1590690935412" />
-    <state x="238" y="149" key="git4idea.merge.GitPullDialog" timestamp="1591066039560">
+    <state x="238" y="149" key="git4idea.merge.GitPullDialog" timestamp="1591066069931">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="238" y="149" key="git4idea.merge.GitPullDialog/0.0.1280.689@0.0.1280.689" timestamp="1591066039560" />
+    <state x="238" y="149" key="git4idea.merge.GitPullDialog/0.0.1280.689@0.0.1280.689" timestamp="1591066069931" />
     <state x="297" y="153" key="run.anything.popup" timestamp="1590683043829">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

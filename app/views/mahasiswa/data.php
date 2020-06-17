@@ -7,7 +7,7 @@
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="javascript: void(0);">LPPM UIN SUSKA</a></li>
-                        <li class="breadcrumb-item active">Mahasiswa</li>
+                        <li class="breadcrumb-item active">Data Diri Saya</li>
                     </ol>
                 </div>
                 <h4 class="page-title">Mahasiswa KKN Online</h4>
@@ -21,14 +21,9 @@
                 <h4 class="mt-0 header-title">Data Mahasiswa</h4>
                 <p class="text-muted font-14 mb-3">
                     Data Mahasiwa Uin Suska Riau
-                    <button data-animation="fadein" data-title="Mahasiswa" data-plugin="modal" data-overlayColor="#36404a"
-                            data-backdrop="static" data-keyboard="false"
-                            class="btn btn-primary waves-effect waves-light float-right" data-toggle="modal"
-                            data-target="#modal">Tambah Mahasiswa
-                    </button>
                 </p>
-
-                <table id="responsive-datatable" class="table table-bordered table-striped  dt-responsive nowrap" cellpadding="0" width="100%">
+                <table id="responsive-datatable" class="table table-bordered table-striped  dt-responsive nowrap"
+                       cellpadding="0" width="100%">
                     <thead>
                     <tr>
                         <th>ID</th>
@@ -68,7 +63,7 @@
                     </div>
                     <div class="form-group">
                         <label for="">Nomor Induk Mahasiswa</label>
-                        <input type="text" name="nim"  class="form-control" placeholder="Masukan Nim"
+                        <input type="text" name="nim" readonly class="form-control" placeholder="Masukan Nim"
                                id="nim">
                     </div>
                     <div class="form-group">
@@ -80,12 +75,12 @@
                     </div>
                     <div class="form-group">
                         <label for="">Fakultas</label>
-                        <input type="text" name="fakultas"  class="form-control" placeholder="Fakutlas"
+                        <input type="text" name="fakultas" readonly class="form-control" placeholder="Fakutlas"
                                id="fakultas">
                     </div>
                     <div class="form-group">
                         <label for="">Program Studi</label>
-                        <input type="text" name="program_studi"  class="form-control"
+                        <input type="text" name="program_studi" readonly class="form-control"
                                placeholder="Program Studi"
                                id="program_studi">
                     </div>
@@ -125,7 +120,7 @@
                 },
                 {
                     "class": "text-center",
-                    "targets": [0,1,2,3,4,5,6,7]
+                    "targets": [0, 1, 2, 3, 4, 5, 6, 7]
                 }
             ],
 
@@ -135,4 +130,6 @@
         });
     })
 </script>
+
+
 <script src="<?= $this->url->get('js/mahasiswa.js') ?>"></script>

@@ -180,6 +180,23 @@ class Users extends \Phalcon\Mvc\Model
      * @var string
      */
     public $role;
+    public $kode_akun;
+
+    /**
+     * @return mixed
+     */
+    public function getKodeAkun()
+    {
+        return $this->kode_akun;
+    }
+
+    /**
+     * @param mixed $kode_akun
+     */
+    public function setKodeAkun($kode_akun)
+    {
+        $this->kode_akun = $kode_akun;
+    }
 
     /**
      * Validations and business logic

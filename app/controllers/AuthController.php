@@ -14,7 +14,9 @@ class AuthController extends \Phalcon\Mvc\Controller
 
     public function indexAction()
     {
-
+//$p = $this->security->hash(123456789);
+//var_dump($p);
+//exit();
     }
 
     public function prosesAction()
@@ -28,13 +30,13 @@ class AuthController extends \Phalcon\Mvc\Controller
 //            $user =
 //            var_dump($u);
             $user = Users::findFirst([
-                'email = :email:',
+                'kode_akun = :kode_akun:',
                 'bind' => [
-                    'email' => $e,
+                    'kode_akun' => $e,
                 ]
             ]);
 
-//            var_dump($user);
+//            var_dump($this->security->checkHash($p, $user->password));
 //            exit();
 
             // Check User Active
@@ -55,6 +57,7 @@ class AuthController extends \Phalcon\Mvc\Controller
                     $this->session->set('AUTH_CREATED', $user->created);
                     $this->session->set('AUTH_UPDATED', $user->updated);
                     $this->session->set('AUTH_ROLE', $user->role);
+                    $this->session->set('KODE_AKUN', $user->kode_akun);
                     $this->session->set('IS_LOGIN', 1);
 
                     // $this->flashSession->success("Login Success");

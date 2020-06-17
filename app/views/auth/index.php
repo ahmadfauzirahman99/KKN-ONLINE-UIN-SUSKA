@@ -14,12 +14,13 @@
 
                     <div class="text-center mb-4">
                         <h4 class="text-uppercase mt-0"><b>Hi!</b> Silahkan Masuk</h4>
+                        <?= $this->flashSession->output() ?>
                     </div>
 
                     <form action="<?= $this->url->get('proses/login') ?>" method="post">
 
                         <div class="form-group mb-3">
-                            <label for="emailaddress">Kode Akun / Nik / Nim / Email</label>
+                            <label for="emailaddress">Nip/ Nik / Nim </label>
                             <input class="form-control" type="text" id="emailaddress" name="masuk[]" required=""
                                    placeholder="Masukan Kode Akun / Nik / Nim">
                         </div>

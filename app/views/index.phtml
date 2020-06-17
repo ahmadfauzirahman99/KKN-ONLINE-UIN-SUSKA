@@ -16,7 +16,9 @@
     echo $this->tag->stylesheetLink("assets/libs/datatables/buttons.bootstrap4.css");
     echo $this->tag->stylesheetLink("assets/libs/datatables/select.bootstrap4.css");
     echo $this->tag->stylesheetLink('assets/libs/morris-js/morris.css');
+    echo $this->tag->stylesheetLink('assets/libs/bootstrap-datepicker/bootstrap-datepicker.css');
     echo $this->tag->stylesheetLink('assets/css/bootstrap.min.css');
+    echo $this->tag->stylesheetLink('css/pe-icon-7.css');
     echo $this->tag->stylesheetLink('assets/css/icons.min.css');
     echo $this->tag->stylesheetLink('assets/css/app.min.css');
     echo $this->tag->javascriptInclude('assets/js/vendor.min.js');
@@ -163,9 +165,10 @@
                     <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#"
                        role="button" aria-haspopup="false" aria-expanded="false">
                         <img src="<?= $this->url->get('img/user1_128.png') ?>" alt="user-image" class="rounded-circle">
-                        <span class="pro-user-name ml-1">
-                                    <?= $this->session->get('AUTH_NAME') ?> <i class="mdi mdi-chevron-down"></i>
-                                </span>
+                        <span class="pro-user-name ml-1 text-capitalize">
+                                    <?= $this->session->get('AUTH_NAME') ?>
+                            <i class="mdi mdi-chevron-down"></i>
+                        </span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                         <!-- item-->
@@ -174,21 +177,9 @@
                         </div>
 
                         <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <a href="<?= $this->url->get('mahasiswa/data-diri') ?>" class="dropdown-item notify-item">
                             <i class="fe-user"></i>
-                            <span>My Account</span>
-                        </a>
-
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
-                            <i class="fe-settings"></i>
-                            <span>Settings</span>
-                        </a>
-
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
-                            <i class="fe-lock"></i>
-                            <span>Lock Screen</span>
+                            <span>Data Diri</span>
                         </a>
 
                         <div class="dropdown-divider"></div>
@@ -236,10 +227,11 @@
                 <ul class="navigation-menu">
 
                     <li class="has-submenu">
-                        <a href="<?= $this->url->get('dashboard/admin/manage') ?>"><i class="mdi mdi-view-dashboard"></i>Dashboard</a>
+                        <a href="<?= $this->url->get('dashboard/admin/manage') ?>"><i
+                                    class="mdi mdi-view-dashboard"></i>Dashboard</a>
                     </li>
 
-                  <!--  <li class="has-submenu">
+                    <!--  <li class="has-submenu">
                         <a href="#"> <i class="mdi mdi-invert-colors"></i>Data Master
                             <div class="arrow-down"></div>
                         </a>
@@ -247,27 +239,42 @@
                             <li>
                                 <ul>
                                     <li>
-                                        <a href="<?php /*$this->url->get('setting/admin/manage') */?>">Setting</a>
+                                        <a href="<?php /*$this->url->get('setting/admin/manage') */ ?>">Setting</a>
                                     </li>
                                     <li>
-                                        <a href="<?php /*$this->url->get('fakultas/admin/manage') */?>">Data Fakultas</a>
+                                        <a href="<?php /*$this->url->get('fakultas/admin/manage') */ ?>">Data Fakultas</a>
                                     </li>
                                     <li>
-                                        <a href="<?php /*$this->url->get('jurusan/admin/manage') */?>">Data Jurusan</a>
+                                        <a href="<?php /*$this->url->get('jurusan/admin/manage') */ ?>">Data Jurusan</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                     </li>-->
-                    <li class="has-submenu">
-                        <a href="<?= $this->url->get('mahasiswa/admin/manage') ?>">Data Mahasiswa</a>
-                    </li>
-                    <li class="has-submenu">
-                        <a href="<?= $this->url->get('mahasiswa/admin/kelompok') ?>">Data Kelompok</a>
-                    </li>
-                    <li class="has-submenu">
-                        <a href="<?= $this->url->get('laporan/admin/laporan') ?>">Laporan</a>
-                    </li>
+                    <?php if ($this->session->get('AUTH_ROLE') == 'Root'): ?>
+                        <li class="has-submenu">
+                            <a href="<?= $this->url->get('mahasiswa/admin/manage') ?>">Data Mahasiswa</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="<?= $this->url->get('dosen/admin/manage') ?>">Data Dosen</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="<?= $this->url->get('mahasiswa/admin/kelompok') ?>">Data Kelompok</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="<?= $this->url->get('laporan/admin/laporan') ?>">Laporan</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="<?= $this->url->get('admin/kegiatan') ?>">Kegiatan KKN</a>
+                        </li>
+                    <?php else: ?>
+                        <li class="has-submenu">
+                            <a href="<?= $this->url->get('mahasiswa/kegiatan/kkn') ?>">Kegiatan KKN</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="<?= $this->url->get('mahasiswa/kegiatan/upload') ?>">Upload Kegiatan KKN</a>
+                        </li>
+                    <?php endif; ?>
                 </ul>
                 <!-- End navigation menu -->
 
@@ -421,6 +428,7 @@
 <div class="rightbar-overlay"></div>
 <?php
 
+echo $this->tag->javascriptInclude("js/bootstrap-notify.js");
 echo $this->tag->javascriptInclude("assets/libs/datatables/jquery.dataTables.min.js");
 echo $this->tag->javascriptInclude("assets/libs/datatables/dataTables.bootstrap4.js");
 echo $this->tag->javascriptInclude("assets/libs/datatables/dataTables.responsive.min.js");
@@ -435,11 +443,14 @@ echo $this->tag->javascriptInclude("assets/libs/datatables/buttons.bootstrap4.mi
 //echo $this->tag->javascriptInclude("assets/libs/pdfmake/pdfmake.min.js");
 //echo $this->tag->javascriptInclude("assets/libs/pdfmake/vfs_fonts.js");
 
+echo $this->tag->javascriptInclude("assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js");
 echo $this->tag->javascriptInclude("assets/js/pages/datatables.init.js");
 echo $this->tag->javascriptInclude('assets/libs/morris-js/morris.min.js');
 echo $this->tag->javascriptInclude('assets/libs/raphael/raphael.min.js');
+echo $this->tag->javascriptInclude('js/keperluan.js');
+
 echo $this->tag->javascriptInclude('assets/js/pages/dashboard.init.js');
-echo $this->tag->javascriptInclude('assets/js/app.min.js');
+//echo $this->tag->javascriptInclude('assets/js/pages/form-advanced.init.js');
 ?>
 </body>
 </html>
